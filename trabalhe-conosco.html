@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/trabalhe-conosco.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Trabalhe Conosco | Cartório de São Paulo</title>
+</head>
+
+<body>
+
+    <header>
+    </header>
+
+    <!-- Botão do WhatsApp Fixo -->
+    <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=551111223344" _target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Título Trabalhe Conosco -->
+    <div class="work">
+        <h2>Trabalhe Conosco</h2>
+    </div>
+
+    <!-- Formulário -->
+    <div class="container-form">
+        <form action="https://formsubmit.co/lucas@cartorio.com.br" enctype="multipart/form-data" method="POST">
+                <input type="text" name="name" placeholder="Digite seu nome" required>
+                <input type="email" name="email" placeholder="Digite seu email" required>
+        
+                <textarea cols="30" rows="10" name="message" placeholder="Digite sua mensagem" required></textarea>
+
+                <label for="attachment">Anexo (.pdf)</label>
+                <input type="file" name="attachment" id="attachment" accept="application/pdf">
+        
+                <button type="submit"><i class="fa-regular fa-paper-plane"></i> Enviar</button>
+        
+                <input type="hidden" name="_subject" value="Trabalhe Conosco!">
+                <input type="text" name="_honey" style="display: none;">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/obrigado.html">         
+        </form>
+    </div>
+
+    <footer>
+    </footer>
+
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
