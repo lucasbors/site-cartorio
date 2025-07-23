@@ -4,7 +4,7 @@ const footer = document.querySelector('footer');
 
 header.innerHTML = `
     <nav>
-            <a class="logo" href="/"><img src="images/logo.png" alt="logo_cartorio"></a>
+            <a class="logo" href="./index.html"><img src="images/logo.png" alt="logo_cartorio"></a>
             <div class="mobile-menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
