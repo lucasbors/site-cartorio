@@ -11,7 +11,7 @@ header.innerHTML = `
                 <div class="line3"></div>
             </div>
             <ul class="nav-list">
-                <li><a href="./">Início</a></li>
+                <li><a href="./index.html">Início</a></li>
                 <li><a href="./contato.html">Contato</a></li>
                 <li><a href="./trabalhe-conosco.html">Trabalhe Conosco</a></li>
                 <li><a href="./politica-de-privacidade.html">Políticas de Privacidade</a></li>
