@@ -4,7 +4,7 @@ const footer = document.querySelector('footer');
 
 header.innerHTML = `
     <nav>
-            <a class="logo" href="/"><img src="/images/logo.png" alt="logo_6risp"></a>
+            <a class="logo" href="/"><img src="images/logo.png" alt="logo_cartorio"></a>
             <div class="mobile-menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
@@ -22,11 +22,11 @@ header.innerHTML = `
 footer.innerHTML = `
 <div id="footer_content">
             <div id="footer_contacts">
-                <h1><img src="/images/logo.png" alt="logo_6risp"></h1>
+                <h1><img src="images/logo.png" alt="logo_cartorio"></h1>
                 <h3 class="cab0">Entre em contato:</h3>
                 
                 <div id="footer_social_media">
-                    <a href="mailto:sac@6risp.com.br" class="footer-link" id="email">
+                    <a href="mailto:lucas@cartoriosp.com.br" class="footer-link" id="email">
                         <i class="fa-solid fa-envelope"></i>
                     </a>
     
@@ -34,7 +34,7 @@ footer.innerHTML = `
                         <i class="fa-brands fa-facebook"></i>
                     </a> -->
     
-                    <a href="https://api.whatsapp.com/send?phone=551150803100" class="footer-link" id="whatsapp">
+                    <a href="https://api.whatsapp.com/send?phone=551111223344" class="footer-link" id="whatsapp">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
                 </div>
@@ -73,7 +73,7 @@ footer.innerHTML = `
 
         <div id="footer_copyright">
             &#169
-            2024 - Cartório de São Paulo - Todos os direitos reservados
+            2025 - Cartório de São Paulo - Todos os direitos reservados
         </div>
 `;
 
